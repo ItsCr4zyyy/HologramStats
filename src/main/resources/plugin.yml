@@ -1,0 +1,10 @@
+name: HologramStats
+version: 1.0.0
+main: org.wcrazy.HologramStats
+api-version: 1.21
+softdepend: [PlaceholderAPI]
+commands:
+  hs:
+    aliases: [holostats, hologramstats]
+    description: Commands for HologramStats
+    usage: /<command> <reload|spawn|setspawn>

@@ -1,0 +1,43 @@
+updater: true
+no-permission: "&cYou do not have permission to use this command."
+
+databases:
+  shuffle:
+    host: localhost
+    port: 3306
+    database: shuffle
+    username: root
+    password: ""
+  cosmetics:
+    host: localhost
+    port: 3306
+    database: cosmetics
+    username: root
+    password: "PASSWORD"
+
+
+queries:
+  speedbuilders-wins:
+    database: "shuffle"
+    selection: "SELECT wins FROM speedbuilders WHERE uuid = %player_uuid%;"
+  speedbuilders-played:
+    database: "shuffle"
+    selection: "SELECT played FROM speedbuilders WHERE uuid = %player_uuid%;"
+  cosmetics-owned:
+    database: "cosmetics"
+    selection: "SELECT owned FROM cosmetics WHERE uuid = %player%;"
+
+
+holograms:
+  shuffle-speedbuilders-stats:
+    location: "world;0;70;0"
+    show-on-join: true
+    rows:
+      - "&aSpeedBuilders Stats"
+      - "&7Wins: %speedbuilders-wins%"
+  shuffle-oitc-stats:
+    location: "world;0;70;0"
+    show-on-join: false
+    rows:
+      - "&aOITC"
+      - "&7Wins: %speedbuilders-wins%"
