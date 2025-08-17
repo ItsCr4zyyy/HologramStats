@@ -52,12 +52,6 @@ After setting up your database queries in `config.yml`, you can use the generate
 - `%hologramstats_speedbuilders-played%` - Returns the number of games played
 - `%hologramstats_cosmetics-owned%` - Returns the number of owned cosmetics
 
-### Usage Examples:
-- **In hologram text**: `&7Wins: %hologramstats_speedbuilders-wins%`
-- **In chat messages**: `You have %hologramstats_speedbuilders-wins% wins!`
-- **In scoreboard**: `Wins: %hologramstats_speedbuilders-wins%`
-- **In any PlaceholderAPI compatible plugin**
-
 ### How It Works:
 1. Configure your queries in `config.yml` under the `queries` section
 2. The plugin automatically generates placeholders in format: `%hologramstats_[query-name]%`
