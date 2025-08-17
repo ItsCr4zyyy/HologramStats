@@ -43,6 +43,29 @@ Perfect for showing player achievements, game stats, or any custom data in beaut
 - **Location persistence** - Save and restore hologram positions across server restarts
 - **Player-specific instances** - Each player sees their own personalized hologram data
 
+## 📊 PlaceholderAPI Examples
+
+After setting up your database queries in `config.yml`, you can use the generated placeholders in any plugin that supports PlaceholderAPI:
+
+### Example Placeholders:
+- `%hologramstats_speedbuilders-wins%` - Returns the number of wins for the player
+- `%hologramstats_speedbuilders-played%` - Returns the number of games played
+- `%hologramstats_cosmetics-owned%` - Returns the number of owned cosmetics
+
+### Usage Examples:
+- **In hologram text**: `&7Wins: %hologramstats_speedbuilders-wins%`
+- **In chat messages**: `You have %hologramstats_speedbuilders-wins% wins!`
+- **In scoreboard**: `Wins: %hologramstats_speedbuilders-wins%`
+- **In any PlaceholderAPI compatible plugin**
+
+### How It Works:
+1. Configure your queries in `config.yml` under the `queries` section
+2. The plugin automatically generates placeholders in format: `%hologramstats_[query-name]%`
+3. When the placeholder is used, it executes the corresponding SQL query
+4. Returns the result directly from your database
+
+This makes it easy to display real-time player statistics anywhere on your server using the standard PlaceholderAPI syntax!
+
 
 ## 📥 Installation
 
