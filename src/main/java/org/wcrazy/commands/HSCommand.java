@@ -132,6 +132,11 @@ public class HSCommand implements CommandExecutor {
             sender.sendMessage(formatHexColors("&8+------------------------------------+"));
             return true;
         } else {
+            if (!sender.hasPermission("hologramstats.help")) {
+                String noPermMsg = plugin.getConfig().getString("no-permission", "&cYou do not have permission to use this command.");
+                sender.sendMessage(formatHexColors(noPermMsg));
+                return true;
+            }
             sendHelp(sender);
             return true;
         }

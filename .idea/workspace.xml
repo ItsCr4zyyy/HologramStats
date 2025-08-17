@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="319esoo6AV2PcBg02e4AI6cuMhj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -59,7 +62,7 @@
       <workItem from="1755081526830" duration="6137000" />
       <workItem from="1755440399895" duration="6000" />
       <workItem from="1755454780120" duration="554000" />
-      <workItem from="1755455518056" duration="620000" />
+      <workItem from="1755455518056" duration="1444000" />
     </task>
     <servers />
   </component>
