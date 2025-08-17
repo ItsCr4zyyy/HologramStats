@@ -1,6 +1,6 @@
 # HologramStats
 
-A powerful Minecraft plugin that creates dynamic holograms displaying player statistics from SQL databases.
+A powerful plugin that creates dynamic holograms displaying player statistics from SQL databases.
 Perfect for showing player achievements, game stats, or any custom data in beautiful, interactive hologram displays — with full PlaceholderAPI support.
 
 
