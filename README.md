@@ -10,10 +10,9 @@ Perfect for showing player achievements, game stats, or any custom data in beaut
 - 🗄️ **MySQL Integration** - Connect to multiple databases and execute custom SQL queries
 - 📊 **Real-time Statistics** - Display live player data that updates automatically
 - 🎨 **Customizable Content** - Support for hex colors, player placeholders, and dynamic text
-- 🖱️ **Interactive Commands** - Clickable buttons for easy hologram management
+- 🖱️ **Interactive Commands** - Clickable buttons for easy management
 - 🔄 **PlaceholderAPI Support** - Custom placeholders for database queries
 - 🧹 **Auto-cleanup** - Automatic removal of old holograms on server restart
-- ⌨️ **Tab Completion** - Smart command suggestions with permission-based filtering
 - 🎭 **Player-specific Holograms** - Individual hologram instances for each player
 
 
