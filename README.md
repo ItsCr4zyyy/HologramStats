@@ -1,5 +1,58 @@
 # HologramStats
 
+A powerful Minecraft plugin that creates dynamic holograms displaying real-time player statistics from MySQL databases.  
+Perfect for showing player achievements, game stats, or any custom data in beautiful, interactive hologram displays.
+
+
+## ✅ Features
+
+- 🔗 **Dynamic Hologram System** - Create custom holograms with configurable locations and content
+- 🗄️ **MySQL Integration** - Connect to multiple databases and execute custom SQL queries
+- 📊 **Real-time Statistics** - Display live player data that updates automatically
+- 🎨 **Customizable Content** - Support for hex colors, player placeholders, and dynamic text
+- 🖱️ **Interactive Commands** - Clickable buttons for easy hologram management
+- 🔄 **PlaceholderAPI Support** - Custom placeholders for database queries
+- 🧹 **Auto-cleanup** - Automatic removal of old holograms on server restart
+- ⌨️ **Tab Completion** - Smart command suggestions with permission-based filtering
+- 🎭 **Player-specific Holograms** - Individual hologram instances for each player
+
+
+## 🛠️ Requirements
+
+- **Minecraft 1.20.5 and above**
+- **Java 21**
+- **MySQL/MariaDB database**
+- **PlaceholderAPI** (soft dependency)
+
+
+## 💬 Commands & 🔐 Permissions
+
+- `/hs reload` (hologramstats.reload) – reloads the plugin configuration
+- `/hs spawn <name>` (hologramstats.spawn) – spawns a hologram for the player
+- `/hs setlocation <name>` (hologramstats.setlocation) – sets hologram location to player's position
+- `/hs list` (hologramstats.list) – displays all available holograms with clickable buttons
+- `hologramstats.help` – access to help command
+
+
+## 🎯 Hologram Features
+
+- **Multi-database support** - Connect to different databases for various data sources
+- **Custom SQL queries** - Execute personalized database queries with player placeholders
+- **Dynamic content** - Use placeholders like `%player%`, `%player_uuid%`, and custom query results
+- **Hex color support** - Beautiful, colorful hologram displays
+- **Location persistence** - Save and restore hologram positions across server restarts
+- **Player-specific instances** - Each player sees their own personalized hologram data
+
+
+## 📥 Installation
+
+1. Download the plugin `.jar` file
+2. Ensure you have **MySQL/MariaDB** running
+3. Place the plugin into your server's `/plugins` folder
+4. Start the server and configure `config.yml`
+5. Set up your database connections and hologram configurations
+
+
 ## ⚖️ License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.  
