@@ -30,7 +30,7 @@ Perfect for showing player achievements, game stats, or any custom data in beaut
 - `/hs spawn <name>` (hologramstats.spawn) – spawns a hologram for the player
 - `/hs setlocation <name>` (hologramstats.setlocation) – sets hologram location to player's position
 - `/hs list` (hologramstats.list) – displays all available holograms with clickable buttons
-- `hologramstats.help` – access to help command
+- hologramstats.help – access to help command
 
 
 ## 🎯 Hologram Features
